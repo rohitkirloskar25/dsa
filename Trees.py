@@ -52,9 +52,9 @@ my_tree.insert(1)
 my_tree.insert(3)
 my_tree.insert(4)
 
-# print(my_tree.root.value)
-# print(my_tree.root.left.value)
-# print(my_tree.root.right.value)
+print("Value at the root is: ",my_tree.root.value)
+print("Value at the left of root is: ",my_tree.root.left.value)
+print("Value at the right of root is: ",my_tree.root.right.value)
 
 print(my_tree.contains(1))
 print(my_tree.contains(2))
